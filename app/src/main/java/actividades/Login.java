@@ -123,9 +123,9 @@ public class Login extends Activity implements View.OnClickListener {
         if (v == buttonChoose) {
             showFileChooser();
         }
-        if(v == buttonUpload){
+        if(v == buttonUpload) {
             uploadImage();
-
+        }
         if(v == buttonView){
             viewImage();
         }
