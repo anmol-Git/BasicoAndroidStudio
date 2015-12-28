@@ -131,6 +131,8 @@ public class Login extends Activity implements View.OnClickListener {
         }
     }
 
+
+
     private void viewImage() {
         startActivity(new Intent(this, ViewImage.class));
     }
