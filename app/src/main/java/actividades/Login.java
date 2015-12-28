@@ -123,9 +123,6 @@ public class Login extends Activity implements View.OnClickListener {
         if (v == buttonChoose) {
             showFileChooser();
         }
-
-
-
         if(v == buttonUpload) {
             uploadImage();
         }
@@ -133,8 +130,6 @@ public class Login extends Activity implements View.OnClickListener {
             viewImage();
         }
     }
-
-
 
     private void viewImage() {
         startActivity(new Intent(this, ViewImage.class));
